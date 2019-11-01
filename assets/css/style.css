@@ -1,0 +1,65 @@
+body {
+    background-image: url('/Users/SIMConsultant1/Desktop/BootCamp/TriviaGame/assets/images/1191122-bar-wallpaper.jpg');
+    
+}
+
+.backdrop {
+    margin: 15% 0%;
+}
+
+.heading {
+    width: 40%;
+    background: black;
+    color: white;
+    margin: 0 auto;
+}
+
+.top-body {
+    width: auto;
+    padding: 10px 20px;
+    background: rgb(174, 157, 157);
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.main-body {
+    width: auto;
+    padding: 10px 20px;
+    background: rgb(174, 157, 157);
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.answers {
+    font-size: 1.5em;
+}
+
+
+#title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    text-align: center;
+    padding: 10px;
+}
+
+#game-stats {
+    text-align: center;
+    margin: auto;    
+    display: block;
+    padding: 10px;
+    
+}
+
+#timer {
+    font-size: 1.3em;
+}
+#question {
+    font-size: 1.2em;
+}
+
+
+
