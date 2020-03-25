@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Users/SIMConsultant1/Desktop/BootCamp/TriviaGame/assets/images/1191122-bar-wallpaper.jpg');
+    background-image: url("https://stephmorin.ca/wp-content/uploads/2019/01/Steph-Morin-Bar-Background-Paralax.jpg");
     
 }
 
@@ -9,25 +9,27 @@ body {
 
 .heading {
     width: 40%;
-    background: black;
+    background: rgb(121, 57, 57);
     color: white;
     margin: 0 auto;
 }
 
 .top-body {
+    display: flex;
+    justify-content: center;
     width: auto;
     padding: 10px 20px;
-    background: rgb(174, 157, 157);
+    background: rgba(174, 157, 157, 0.5);
     color: black;
     font-size: 1.3em;
     text-align: center;
     font-family: 'Patrick Hand', cursive;
 }
 
-.main-body {
+.main-body, .ending {
     width: auto;
     padding: 10px 20px;
-    background: rgb(174, 157, 157);
+    background: rgba(174, 157, 157, 0.5);
     color: black;
     font-size: 1.3em;
     text-align: center;
@@ -38,6 +40,9 @@ body {
     font-size: 1.5em;
 }
 
+#choices {
+    margin: 20px;
+}
 
 #title {
     font-family: 'Permanent Marker', cursive;
@@ -54,11 +59,18 @@ body {
     
 }
 
-#timer {
+#timer, #countdown {
     font-size: 1.3em;
 }
 #question {
     font-size: 1.2em;
+}
+
+
+.thisChoice:hover{
+	background-color: #28cee4;
+	color: black;
+	padding: 10px;
 }
 
 

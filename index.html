@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../TriviaGame/assets/javascript/app.js"></script>
-    
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Trivia Game</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Trivia Game</title>
 </head>
+
 <body>
-    <div class="heading" id="title">Spirits Trivia Game</div>
-        
-    <div class="container">
-        <div class="backdrop">
-            <div class="row my-10">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10">
-                    <div class="top-body">
-                        <br>
-                        <br>
-                        <p id="timer">Time remaining:</p>
-                        <br>
-                    </div>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
+  <div class="heading" id="title">Spirits Trivia Game</div>
 
-            <div class="row my-10">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10">
-                    <div class="main-body">
-                        <p id="question">Question goes here</p>
-                        <br>
-                        <p class="answers" id="answer1">answer goes here</p>
-                        <p class="answers" id="answer2">answer goes here</p>
-                        <p class="answers" id="answer3">answer goes here</p>
-                        <p class="answers" id="answer4">answer goes here</p>
-
-                    </div>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
-
+  <div class="container">
+    <div class="backdrop">
+      <div class="row my-10">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <div class="top-body">
+            <button type="button" class="btn btn-secondary btn-lg" id="game-button">Begin Game</button>
+            <br>
+            <br>
+          </div>
         </div>
+        <div class="col-lg-1"></div>
+      </div>
 
-                
-           
+      <div class="row my-10">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <div class="main-body">
+            <div id="countdown"></div>
+            <div id="questions"></div>
+            <div id="choices"></div>
+            <div id="result"></div>
 
-            
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+      <div class="row my-10">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <div class="ending">
+            <div id="thanks"></div>
+            <div id="ans-correct"></div>
+            <div id="ans-incorrect"></div>
+            <div id="ans-unanswered"></div>
+            <br>
+            <button type="button" class="btn btn-secondary" id="restart">Restart</button>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
     </div>
-        
+
+
+
+
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../TriviaGame/assets/javascript/app.js"></script>
+
 </body>
+
 </html>
